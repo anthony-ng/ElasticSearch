@@ -56,14 +56,14 @@ class Searchcontainer extends Component {
 						<input type="text" placeholder="#Content" ref={(input) => this._query = input}/>
 						<input type="text" placeholder="Location" ref={(input) => this._city = input} />
 						<div className="tweet-form-action">
-							<button type="submit">Submit</button>
+							<button id="btn" type="submit">Submit</button>
 						</div>
 					</div>
 				</form>
 			</div>
 	    </div>
   	)
-  }	
+  }
 }
 
 export default Searchcontainer;

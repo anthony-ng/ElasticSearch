@@ -26,8 +26,6 @@ class Twitsection extends Component {
     }).then((res) => res.json()).then((res) => this.setState({tweets:res}));
   }
 
-
-
     renderTweetsData(data) {
       this.setState({tweets:data});
       console.log(this.state.tweets)
